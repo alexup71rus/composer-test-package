@@ -1,0 +1,15 @@
+{
+    "name": "aleksandrhodyrev/packagist",
+    "authors": [
+        {
+            "name": "Александр Ходырев",
+            "email": "a.khodyrev@intensa.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Khodyrev\\Example\\": "src/"
+        }
+    }
+}
