@@ -1,12 +1,16 @@
 {
     "name": "aleksandrhodyrev/packagist",
+    "description": "A short description of what your package does",
     "authors": [
         {
             "name": "Александр Ходырев",
             "email": "a.khodyrev@intensa.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "Khodyrev\\Example\\": "src/"
